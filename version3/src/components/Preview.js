@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Preview = (props) => {
   return (
@@ -7,7 +7,6 @@ const Preview = (props) => {
       <button id="preview-toggle" onClick={props.previewButton}>Show Preview</button>
       <section id="application-preview" hidden={props.isHidden}>{props.preview}</section>
     </div>
-
   )
 }
 

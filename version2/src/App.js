@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Header from './components/Header'
 import SkillList from './components/SkillList'
 import Footer from './components/Footer'
@@ -39,4 +39,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

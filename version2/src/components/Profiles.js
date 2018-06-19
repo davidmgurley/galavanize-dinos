@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 
 const Profile = (props) => {
-    return (
+  return (
     <li>
       <div className = 'profile-card'>
         <header className = 'profile-header'>
@@ -11,16 +11,15 @@ const Profile = (props) => {
         </header>
         <section className = 'skills-container hidden'>
           <h4>Skills</h4>
-            <ul className = 'skills-list>'>
+            <ul className = 'skills-list'>
               {props.skills.map(skill => {
-            return <li key = {skill}>{skill}</li>
-          })}
+                return <li key={skill}>{skill}</li>
+              })}
             </ul>
         </section>
       </div>
     </li>
-
   )
 }
 
-export default Profile;
+export default Profile
